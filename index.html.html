@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surf Mood | Sidi Ifni, Morocco</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#2c3948',
+              slate: '#162836',
+              dark: '#0f172a',
+              ocean: '#0284c7',
+              oceanDark: '#0369a1',
+              teal: '#14b8a6',
+              sand: '#f59e0b'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '"Cairo"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', '"Cairo"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+    }
+    html[dir="rtl"] body {
+      font-family: 'Cairo', 'Plus Jakarta Sans', sans-serif;
+    }
+    @keyframes kenBurnsSoft {
+      0% { transform: scale(1) translate3d(0, 0, 0); }
+      100% { transform: scale(1.05) translate3d(0, -1%, 0); }
+    }
+    .coach-slide-anim {
+      animation: kenBurnsSoft 6s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-brand-ocean selection:text-white">
+
+  <!-- ==================== 1. الشريط العلوي والتنقل بين الفقرات ==================== -->
+  <header class="sticky top-0 z-40 bg-[#1e293b]/95 backdrop-blur-md border-b border-white/10 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 gap-2">
+
+        <a href="#home" class="flex items-center gap-3 shrink-0">
+          <img src="logo.jpg.jpg"
+               alt="Surf Mood Sidi Ifni"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=200&q=80';"
+               class="w-12 h-12 rounded-full object-cover border border-white/25 shrink-0" />
+          <div class="leading-tight">
+            <span class="block text-lg sm:text-xl font-extrabold tracking-wider text-white">SURF MOOD</span>
+            <span class="block text-[10px] sm:text-xs font-semibold tracking-[0.2em] text-amber-300 uppercase">SIDI IFNI • MOROCCO</span>
+          </div>
+        </a>
+
+        <!-- روابط التنقل في شاشات سطح المكتب -->
+       
+                    <div class="flex items-center gap-2 sm:gap-3">
+          <a href="https://wa.me/212610515768?text=Hello%20Surf%20Mood%20Sidi%20Ifni!"
+             target="_blank"
+             rel="noopener"
+             aria-label="WhatsApp"
+             class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-emerald-500/20 hover:bg-emerald-500 border border-emerald-400/40 text-emerald-300 hover:text-white flex items-center justify-center transition-all">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+            </svg>
+          </a>
+
+          <a href="https://www.instagram.com/surf_mood__/"
+             target="_blank"
+             rel="noopener"
+             aria-label="Instagram"
+             class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-pink-500/20 hover:bg-gradient-to-tr hover:from-amber-500 hover:via-pink-500 hover:to-purple-600 border border-pink-400/40 text-pink-300 hover:text-white flex items-center justify-center transition-all">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+
+          <div class="flex items-center bg-slate-800/90 border border-white/15 rounded-full p-1">
+            <button type="button" onclick="setLanguage('en')" id="lang-en" class="lang-btn px-2.5 py-1 rounded-full text-xs font-bold bg-sky-500 text-white transition-all cursor-pointer">EN</button>
+            <button type="button" onclick="setLanguage('fr')" id="lang-fr" class="lang-btn px-2.5 py-1 rounded-full text-xs font-bold text-slate-300 hover:text-white transition-all cursor-pointer">FR</button>
+            <button type="button" onclick="setLanguage('ar')" id="lang-ar" class="lang-btn px-2.5 py-1 rounded-full text-xs font-bold text-slate-300 hover:text-white transition-all cursor-pointer">عربي</button>
+          </div>
+                       </div>
+                          </div>
+
+      <!-- شريط أزرار التنقل السريع بين كل الفقرات (مناسب للهاتف والحاسوب) -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-2.5 pt-1 text-xs font-bold">
+        <a href="#coaches" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-sky-500 text-white whitespace-nowrap transition">🏄‍♂️ <span data-i18n="nav_coaches">Coaches</span></a>
+        <a href="#services" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-sky-500 text-white whitespace-nowrap transition">🌊 <span data-i18n="nav_services">Services</span></a>
+        <a href="#shop" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-sky-500 text-white whitespace-nowrap transition">🛒 <span data-i18n="nav_shop">Surf Shop</span></a>
+        <a href="#instagram-showcase" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-pink-500 text-white whitespace-nowrap transition">📸 <span data-i18n="nav_ig">Instagram</span></a>
+        <a href="#videos" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-amber-500 hover:text-[#0c272e] text-white whitespace-nowrap transition">🎬 <span data-i18n="nav_videos">Videos</span></a>
+        <a href="#reviews" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-teal-500 hover:text-[#062626] text-white whitespace-nowrap transition">★ <span data-i18n="nav_reviews">Reviews</span></a>
+        <a href="#booking" class="px-3.5 py-1.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white whitespace-nowrap transition">💬 <span data-i18n="nav_booking">Booking</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== 2. القسم الرئيسي ==================== -->
+  <section id="home" class="relative overflow-hidden bg-[#0f172a] text-white">
+    <div class="absolute inset-0">
+      <img src="ali bg.jpeg"
+           alt="Surfing in Sidi Ifni"
+           onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1800&q=80';"
+           class="w-full h-full object-cover object-center opacity-45" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0f172a]/95 via-[#0f172a]/70 to-[#0f172a]/45"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+      <div class="max-w-2xl">
+        <a href="https://maps.app.goo.gl/D8D4u2dDMgDLzqsw9"
+           target="_blank"
+           rel="noopener"
+           class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-xs sm:text-sm font-medium text-sky-200 mb-6 backdrop-blur-sm transition-all">
+          <span>📍</span>
+          <span>SURF MOOD SHOP LOCATION • Sidi Ifni 85200 • Morocco</span>
+          <span>↗</span>
+        </a>
+
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6" data-i18n="hero_title">
+          Catch the Waves with <span class="text-sky-300">Surf Mood</span>
+        </h1>
+
+        <p class="text-base sm:text-xl text-slate-200 leading-relaxed mb-8" data-i18n="hero_subtitle">
+          Discover the waves of Sidi Ifni with local surf coaches, professional surf guiding, quality equipment, and authentic Moroccan hospitality.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="https://wa.me/212610515768?text=Hello%20Surf%20Mood!%20I%20want%20to%20book%20a%20surf%20session%20in%20Sidi%20Ifni."
+             target="_blank"
+             rel="noopener"
+             class="inline-flex items-center gap-2.5 px-7 py-4 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-base shadow-lg shadow-emerald-500/25 transition-all">
+            <span>💬</span>
+            <span data-i18n="hero_cta_wa">Book via WhatsApp</span>
+          </a>
+
+          <a href="#coaches"
+             class="inline-flex items-center gap-2.5 px-7 py-4 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-base backdrop-blur-sm transition-all">
+            <span>🏄‍♂️</span>
+            <span data-i18n="hero_cta_coaches">Meet Our Coaches</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section id="coach" class="py-16 bg-slate-50 border-t border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+      <!-- معلومات المدرب والمؤسس -->
+      <div class="lg:col-span-5 space-y-5">
+        <div>
+          <span class="inline-block text-xs font-bold uppercase tracking-widest text-sky-600 bg-sky-50 border border-sky-200 px-3 py-1 rounded-full mb-3">
+            Coach &amp; Founder • Sidi Ifni
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-navy leading-tight">
+            Ali  ELMarbouh
+          </h2>
+          <p class="text-sm font-semibold text-slate-500 mt-1">
+            Surf Instructor and Founder of Surf Mood
+          </p>
+        </div>
+
+        <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+          Personalized coaching, local wave knowledge, and unforgettable surf experiences along the coast of Sidi Ifni.
+        </p>
+
+        <div class="grid grid-cols-3 gap-3 pt-2 border-t border-slate-100 text-center">
+          <div class="bg-slate-50 rounded-2xl p-3 border border-slate-200/70">
+            <div id="coach-avg-rating" class="text-lg font-extrabold text-brand-navy">5.0</div>
+            <div id="coach-reviews-count" class="text-[11px] text-slate-500">surfer rating</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-3 border border-slate-200/70">
+            <div class="text-lg font-extrabold text-brand-navy">10</div>
+            <div class="text-[11px] text-slate-500">years teaching</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-3 border border-slate-200/70">
+            <div class="text-lg font-extrabold text-brand-navy">4</div>
+            <div class="text-[11px] text-slate-500">languages</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3 pt-1">
+          <a
+            href="https://wa.me/212600000000?text=Hello%20Ali%2C%20I%20would%20like%20to%20book%20a%20surf%20session%20in%20Sidi%20Ifni."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-bold px-5 py-3 transition-colors"
+          >
+            Message on WhatsApp
+          </a>
+          <a
+            href="#services"
+            class="inline-flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 text-brand-navy text-sm font-bold px-5 py-3 border border-slate-200 transition-colors"
+          >
+            See lessons
+          </a>
+        </div>
+      </div>
+
+      <!-- معرض الصور الأنيق -->
+      <div class="lg:col-span-7 space-y-3">
+        <div
+          id="coach1-gallery"
+          class="relative w-full h-80 sm:h-96 rounded-2xl bg-slate-950 border border-slate-800 overflow-hidden select-none flex items-center justify-center"
+        >
+          <img
+            id="gallery-main-img"
+            src=""
+            alt="Ali Marbouh - Surf Mood Sidi Ifni"
+            class="w-full h-full object-contain transition-opacity duration-200"
+          />
+
+          <button
+            type="button"
+            id="gallery-prev-btn"
+            aria-label="Previous photo"
+            class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 hover:bg-white text-slate-950 font-extrabold text-xl flex items-center justify-center shadow-md transition-transform active:scale-95 cursor-pointer"
+          >
+            &lsaquo;
+          </button>
+
+          <button
+            type="button"
+            id="gallery-next-btn"
+            aria-label="Next photo"
+            class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 hover:bg-white text-slate-950 font-extrabold text-xl flex items-center justify-center shadow-md transition-transform active:scale-95 cursor-pointer"
+          >
+            &rsaquo;
+          </button>
+
+          <div
+            id="gallery-counter"
+            class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-black/75 backdrop-blur-xs text-white text-xs font-bold"
+          >
+            0 / 0
+          </div>
+
+          <div
+            id="gallery-total-badge"
+            class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-white/95 text-slate-900 text-xs font-bold shadow-xs"
+          >
+            0 photos
+          </div>
+        </div>
+
+        <!-- شريط الصور المصغرة -->
+        <div
+          id="gallery-thumbs"
+          class="flex items-center gap-2 overflow-x-auto pb-1"
+        ></div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  (function () {
+    const FOLDER = "coach1";
+    const MAX_NUM = 60; // يبحث من ALI1 حتى ALI60 (يمكنك زيادته أو إنقاصه)
+    const EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp"];
+
+    // توليد أسماء محتملة تبدأ بـ ALI (مثال: ALI1.jpg, ALI6 (1).jpg, ALI10 (15).jpg...)
+    function buildAliCandidates() {
+      const names = new Set();
+
+      for (let i = 1; i <= MAX_NUM; i++) {
+        for (const ext of EXTENSIONS) {
+          names.add(`${FOLDER}/ALI${i}${ext}`);
+          for (let v = 1; v <= 20; v++) {
+            names.add(`${FOLDER}/ALI${i} (${v})${ext}`);
+          }
+        }
+      }
+
+      return [...names];
+    }
+
+    const naturalCollator = new Intl.Collator(undefined, {
+      numeric: true,
+      sensitivity: "base"
+    });
+
+    function getFileName(pathOrUrl) {
+      const clean = String(pathOrUrl || "").split("?")[0].split("#")[0];
+      const parts = clean.split("/");
+      return decodeURIComponent(parts[parts.length - 1] || clean);
+    }
+
+    function detectExistingAliPhotos(callback) {
+      const candidates = buildAliCandidates();
+      const found = [];
+      let done = 0;
+
+      if (!candidates.length) {
+        callback([]);
+        return;
+      }
+
+      candidates.forEach((rawSrc) => {
+        const encoded = encodeURI(rawSrc);
+        const probe = new Image();
+
+        probe.onload = () => {
+          found.push(encoded);
+          done++;
+          if (done === candidates.length) {
+            const sorted = found.sort((a, b) =>
+              naturalCollator.compare(getFileName(a), getFileName(b))
+            );
+            callback(sorted);
+          }
+        };
+
+        probe.onerror = () => {
+          done++;
+          if (done === candidates.length) {
+            const sorted = found.sort((a, b) =>
+              naturalCollator.compare(getFileName(a), getFileName(b))
+            );
+            callback(sorted);
+          }
+        };
+
+        probe.src = encoded;
+      });
+    }
+
+    let photos = [];
+    let currentIndex = 0;
+
+    const imgEl = document.getElementById("gallery-main-img");
+    const counterEl = document.getElementById("gallery-counter");
+    const totalEl = document.getElementById("gallery-total-badge");
+    const thumbsEl = document.getElementById("gallery-thumbs");
+    const prevBtn = document.getElementById("gallery-prev-btn");
+    const nextBtn = document.getElementById("gallery-next-btn");
+
+    function renderThumbs() {
+      if (!thumbsEl) return;
+      thumbsEl.innerHTML = photos
+        .map((src, idx) => {
+          const active = idx === currentIndex;
+          return `
+            <button
+              type="button"
+              data-idx="${idx}"
+              aria-label="Photo ${idx + 1}"
+              class="w-16 h-12 rounded-xl overflow-hidden bg-slate-900 border-2 shrink-0 transition-all cursor-pointer ${
+                active
+                  ? "border-sky-500 ring-2 ring-sky-500/30 opacity-100"
+                  : "border-transparent opacity-60 hover:opacity-95"
+              }"
+            >
+              <img src="${src}" alt="ALI thumb ${idx + 1}" class="w-full h-full object-cover" />
+            </button>
+          `;
+        })
+        .join("");
+
+      thumbsEl.querySelectorAll("[data-idx]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          currentIndex = Number(btn.getAttribute("data-idx")) || 0;
+          updateUI();
+        });
+      });
+
+      const activeBtn = thumbsEl.querySelector(`[data-idx="${currentIndex}"]`);
+      activeBtn?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }
+
+    function updateUI() {
+      if (!photos.length) {
+        if (imgEl) imgEl.removeAttribute("src");
+        if (counterEl) counterEl.textContent = "0 / 0";
+        if (totalEl) totalEl.textContent = "0 photos";
+        if (thumbsEl) thumbsEl.innerHTML = "";
+        return;
+      }
+
+      if (currentIndex < 0) currentIndex = photos.length - 1;
+      if (currentIndex >= photos.length) currentIndex = 0;
+
+      if (imgEl) {
+        imgEl.classList.remove("object-cover");
+        imgEl.classList.add("object-contain");
+        imgEl.src = photos[currentIndex];
+        imgEl.alt = `Surf Mood - ${getFileName(photos[currentIndex])}`;
+      }
+
+      if (counterEl) counterEl.textContent = `${currentIndex + 1} / ${photos.length}`;
+      if (totalEl) {
+        totalEl.textContent = `${photos.length} ${photos.length === 1 ? "photo" : "photos"}`;
+      }
+
+      renderThumbs();
+    }
+
+    prevBtn?.addEventListener("click", () => {
+      if (!photos.length) return;
+      currentIndex--;
+      updateUI();
+    });
+
+    nextBtn?.addEventListener("click", () => {
+      if (!photos.length) return;
+      currentIndex++;
+      updateUI();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (!photos.length) return;
+      if (e.key === "ArrowLeft") {
+        currentIndex--;
+        updateUI();
+      } else if (e.key === "ArrowRight") {
+        currentIndex++;
+        updateUI();
+      }
+    });
+
+    function init() {
+      if (counterEl) counterEl.textContent = "...";
+      if (totalEl) totalEl.textContent = "Loading...";
+      detectExistingAliPhotos((foundPhotos) => {
+        photos = foundPhotos;
+        currentIndex = 0;
+        updateUI();
+      });
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+  })();
+</script>
+<script>
+  (function () {
+    const RAW_PHOTOS = [
+      "coach1/ALI1.jpeg",
+       "coach1/ALI2.jpeg",
+       "coach1/ALI3.jpeg",
+       "coach1/ALI4.jpeg",
+       "coach1/ALI5.jpeg",
+       "coach1/ALI6.jpeg",
+       "coach1/ALI7.jpeg",
+       "coach1/ALI8.jpeg",
+       "coach1/ALI9.jpeg",
+       "coach1/ALI10.jpeg",
+       "coach1/ALI11.jpeg",
+       "coach1/ALI13.jpeg",
+       "coach1/ALI12.jpeg",
+       "coach1/ALI2.jpeg",
+       "coach1/ALI14.jpeg",
+       "coach1/ALI15.jpeg",
+       "coach1/ALI16.jpeg",
+       "coach1/ALI17.jpeg",
+       
+       
+
+    
+    ];
+
+    const naturalCollator = new Intl.Collator(undefined, {
+      numeric: true,
+      sensitivity: "base"
+    });
+
+    function getSortKey(pathOrUrl) {
+      const clean = String(pathOrUrl || "").split("?")[0].split("#")[0];
+      const parts = clean.split("/");
+      return decodeURIComponent(parts[parts.length - 1] || clean);
+    }
+
+    const sortedPhotos = [...RAW_PHOTOS]
+      .filter(Boolean)
+      .sort((a, b) => naturalCollator.compare(getSortKey(a), getSortKey(b)))
+      .map((src) => encodeURI(src));
+
+    let currentIndex = 0;
+
+    const imgEl = document.getElementById("gallery-main-img");
+    const counterEl = document.getElementById("gallery-counter");
+    const totalEl = document.getElementById("gallery-total-badge");
+    const thumbsEl = document.getElementById("gallery-thumbs");
+    const prevBtn = document.getElementById("gallery-prev-btn");
+    const nextBtn = document.getElementById("gallery-next-btn");
+
+    function renderThumbnails() {
+      if (!thumbsEl) return;
+      thumbsEl.innerHTML = sortedPhotos
+        .map((src, idx) => {
+          const isActive = idx === currentIndex;
+          return `
+            <button
+              type="button"
+              data-thumb-index="${idx}"
+              aria-label="Photo ${idx + 1}"
+              class="w-16 h-12 rounded-xl overflow-hidden bg-slate-900 border-2 shrink-0 transition-all cursor-pointer ${
+                isActive
+                  ? "border-sky-500 ring-2 ring-sky-500/30 opacity-100"
+                  : "border-transparent opacity-60 hover:opacity-95"
+              }"
+            >
+              <img src="${src}" alt="Thumb ${idx + 1}" class="w-full h-full object-cover" />
+            </button>
+          `;
+        })
+        .join("");
+
+      thumbsEl.querySelectorAll("[data-thumb-index]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          currentIndex = Number(btn.getAttribute("data-thumb-index")) || 0;
+          updateGallery();
+        });
+      });
+
+      const activeThumb = thumbsEl.querySelector(`[data-thumb-index="${currentIndex}"]`);
+      activeThumb?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }
+
+    function updateGallery() {
+      if (!sortedPhotos.length) {
+        if (imgEl) imgEl.removeAttribute("src");
+        if (counterEl) counterEl.textContent = "0 / 0";
+        if (totalEl) totalEl.textContent = "0 photos";
+        if (thumbsEl) thumbsEl.innerHTML = "";
+        return;
+      }
+
+      if (currentIndex < 0) currentIndex = sortedPhotos.length - 1;
+      if (currentIndex >= sortedPhotos.length) currentIndex = 0;
+
+      if (imgEl) {
+        imgEl.src = sortedPhotos[currentIndex];
+        imgEl.alt = `Surf Mood Sidi Ifni - photo ${currentIndex + 1} of ${sortedPhotos.length}`;
+      }
+      if (counterEl) counterEl.textContent = `${currentIndex + 1} / ${sortedPhotos.length}`;
+      if (totalEl) {
+        totalEl.textContent = `${sortedPhotos.length} ${sortedPhotos.length === 1 ? "photo" : "photos"}`;
+      }
+
+      renderThumbnails();
+    }
+
+    prevBtn?.addEventListener("click", () => {
+      currentIndex--;
+      updateGallery();
+    });
+
+    nextBtn?.addEventListener("click", () => {
+      currentIndex++;
+      updateGallery();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") {
+        currentIndex--;
+        updateGallery();
+      } else if (e.key === "ArrowRight") {
+        currentIndex++;
+        updateGallery();
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", updateGallery);
+    if (document.readyState !== "loading") {
+      updateGallery();
+    }
+  })();
+</script>
+  <!-- ==================== 4. قسم الخدمات ==================== -->
+  <section id="services" class="py-16 sm:py-24 bg-brand-navy text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span data-i18n="srv_tag" class="text-sky-300 font-bold text-xs uppercase tracking-widest">What We Offer</span>
+        <h2 data-i18n="srv_title" class="font-display font-extrabold text-3xl sm:text-4xl mt-2 mb-4">Our Surf Services</h2>
+        <p data-i18n="srv_subtitle" class="text-slate-300 text-base">Personal surf coaching, structured surf lessons, local guiding, and a complete surf shop in Sidi Ifni.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+        <div class="bg-brand-slate/90 border border-white/10 rounded-3xl p-6 flex flex-col justify-between h-full hover:border-sky-400/60 transition-all duration-300 shadow-xl">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <div class="w-11 h-11 rounded-2xl bg-sky-500/20 text-sky-300 flex items-center justify-center font-bold text-base shrink-0">1:1</div>
+              <span data-i18n="srv1_badge" class="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold whitespace-nowrap">1-on-1 Focus</span>
+            </div>
+            <h3 data-i18n="srv1_title" class="font-display font-bold text-xl text-white mb-2">Personal Surf Coaching</h3>
+            <p data-i18n="srv1_desc" class="text-slate-300 text-sm leading-relaxed mb-6">
+              Dedicated one-on-one coaching focused on pop-up speed, wave selection, turns, and ocean confidence.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10">
+            <div class="flex items-baseline justify-between gap-2 mb-4">
+              <span class="text-xl font-extrabold text-[#f59e0b] whitespace-nowrap">300 MAD</span>
+              <span class="text-xs text-slate-400 whitespace-nowrap">~ €30 / session</span>
+            </div>
+            <button type="button" onclick="quickBookService('Personal Surf Coaching')" class="w-full py-3 px-4 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap">
+              <span>💬</span>
+              <span data-i18n="btn_book_wa">Book Session</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-brand-slate/90 border border-white/10 rounded-3xl p-6 flex flex-col justify-between h-full hover:border-sky-400/60 transition-all duration-300 shadow-xl">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <div class="w-11 h-11 rounded-2xl bg-teal-500/20 text-teal-300 flex items-center justify-center font-bold text-base shrink-0">🏄</div>
+              <span data-i18n="srv2_badge" class="px-3 py-1 rounded-full bg-white/10 text-slate-200 text-xs font-bold whitespace-nowrap">All Levels</span>
+            </div>
+            <h3 data-i18n="srv2_title" class="font-display font-bold text-xl text-white mb-2">Surf Lessons</h3>
+            <p data-i18n="srv2_desc" class="text-slate-300 text-sm leading-relaxed mb-6">
+              Safe, welcoming beginner and intermediate lessons on Sidi Ifni's sandy breaks with board and wetsuit included.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10">
+            <div class="flex items-baseline justify-between gap-2 mb-4">
+              <span class="text-xl font-extrabold text-[#f59e0b] whitespace-nowrap">300 MAD</span>
+              <span class="text-xs text-slate-400 whitespace-nowrap">~ €30 / person</span>
+            </div>
+            <button type="button" onclick="quickBookService('Surf Lessons')" class="w-full py-3 px-4 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap">
+              <span>💬</span>
+              <span data-i18n="btn_book_wa">Book Session</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-brand-slate/90 border border-white/10 rounded-3xl p-6 flex flex-col justify-between h-full hover:border-sky-400/60 transition-all duration-300 shadow-xl">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <div class="w-11 h-11 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold text-base shrink-0">🌊</div>
+              <span data-i18n="srv3_badge" class="px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 text-xs font-bold whitespace-nowrap">Sidi Ifni</span>
+            </div>
+            <h3 data-i18n="srv3_title" class="font-display font-bold text-xl text-white mb-2">Surf Guiding</h3>
+            <p data-i18n="srv3_desc" class="text-slate-300 text-sm leading-relaxed mb-6">
+              Daily swell and tide checks with local transport to score the best point and beach breaks around Sidi Ifni.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10">
+            <div class="flex items-baseline justify-between gap-2 mb-4">
+              <span class="text-xl font-extrabold text-[#f59e0b] whitespace-nowrap">300 MAD</span>
+              <span class="text-xs text-slate-400 whitespace-nowrap">~ €30 / trip</span>
+            </div>
+            <button type="button" onclick="quickBookService('Surf Guiding')" class="w-full py-3 px-4 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap">
+              <span>💬</span>
+              <span data-i18n="btn_book_wa">Book Session</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-[#162836] border border-white/10 rounded-3xl p-6 flex flex-col justify-between h-full hover:border-sky-400/60 transition-all duration-300 shadow-xl">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <div class="w-11 h-11 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold text-base shrink-0">🛒</div>
+              <span data-i18n="shop_tag" class="px-3 py-1 rounded-full bg-white/10 text-slate-200 text-xs font-bold whitespace-nowrap">Rentals &amp; Gear</span>
+            </div>
+            <h3 data-i18n="shop_card_title" class="font-display font-bold text-xl text-white mb-2">Surf Shop</h3>
+            <p data-i18n="shop_desc" class="text-slate-200 text-sm leading-relaxed mb-6">
+              Visit N, 1 Bd Moulay Youssef for surfboards, wetsuits, wax, leashes, fins, and daily board rentals.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/10">
+            <div class="flex items-baseline justify-between gap-2 mb-4">
+              <span data-i18n="shop_price" class="text-xl font-extrabold text-[#f59e0b] whitespace-nowrap">From 100 MAD</span>
+              <span class="text-xs text-slate-300 whitespace-nowrap">Sidi Ifni</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <a href="#shop"
+                 class="flex-1 py-3 px-3 rounded-xl bg-[#f59e0b] hover:bg-[#e59006] text-[#0c272e] font-extrabold text-sm transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <span>🛒</span>
+                <span data-i18n="shop_btn_catalog">Catalog</span>
+              </a>
+
+              <a href="https://maps.google.com/?q=N,+1+Bd+Moulay+Youssef,+Sidi+Ifni+85200,+Morocco"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="py-3 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/15 font-bold text-sm transition-colors flex items-center justify-center gap-1 whitespace-nowrap">
+                <span>📍</span>
+                <span data-i18n="shop_btn_location">Map</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. قسم المتجر (صور من اختيارك) ==================== -->
+
+<section id="shop" class="py-16 bg-white border-t border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- رأس القسم وأزرار الفلترة -->
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+      <div>
+        <span class="inline-block text-xs font-bold uppercase tracking-widest text-sky-600 mb-2">
+          BOUTIQUE DE SURF • SIDI IFNI
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          Surf Shop &amp; Rentals
+        </h2>
+        <p class="text-sm sm:text-base text-slate-600 mt-2">
+          Boards, wetsuits, surf accessories, and daily rentals at N, 1 Bd Moulay Youssef.
+        </p>
+      </div>
+
+      <div id="shop-filters" class="flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          data-category="all"
+          onclick="filterShopItems('all')"
+          class="shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-brand-navy text-white transition-colors cursor-pointer"
+        >
+          All Items
+        </button>
+        <button
+          type="button"
+          data-category="boards"
+          onclick="filterShopItems('boards')"
+          class="shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer"
+        >
+          Surfboards
+        </button>
+        <button
+          type="button"
+          data-category="gear"
+          onclick="filterShopItems('gear')"
+          class="shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer"
+        >
+          Wetsuits &amp; Gear
+        </button>
+        <button
+          type="button"
+          data-category="rentals"
+          onclick="filterShopItems('rentals')"
+          class="shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer"
+        >
+          Daily Rentals
+        </button>
+      </div>
+    </div>
+
+ 
+
+<script>
+  (function () {
+    const SHOP_PHONE = "212600000000";
+
+    const SHOP_ITEMS = [
+      {
+        id: "board-shortboard",
+        title: "Performance Shortboard 6'0\"",
+        category: "boards",
+        badge: "Surfboards",
+        price: "3200 MAD",
+        description: "Responsive shape ideal for Sidi Ifni beach and point breaks.",
+        image: "images/shortboard.jpg"
+      },
+      {
+        id: "board-funboard",
+        title: "Cruiser Funboard 7'2\"",
+        category: "boards",
+        badge: "Surfboards",
+        price: "2900 MAD",
+        description: "Easy paddling and smooth turns for progressing surfers.",
+        image: "images/funboard.jpg"
+      },
+      {
+        id: "wetsuit-43",
+        title: "Full Wetsuit 4/3mm Chest Zip",
+        category: "gear",
+        badge: "Wetsuits & Gear",
+        price: "1450 MAD",
+        description: "Flexible thermal protection for Atlantic sessions in Sidi Ifni.",
+        image: "images/wetsuit.jpg"
+      },
+      {
+        id: "leash-wax",
+        title: "Surf Leash, Traction & Wax Kit",
+        category: "gear",
+        badge: "Wetsuits & Gear",
+        price: "420 MAD",
+        description: "Essential daily surf kit with durable ankle cuff and grip wax.",
+        image: "images/gear-kit.jpg"
+      },
+      {
+        id: "rental-board-day",
+        title: "Daily Surfboard Rental",
+        category: "rentals",
+        badge: "Daily Rentals",
+        price: "200 MAD / day",
+        description: "Soft-top, funboard, or hardboard rental for a full day on the waves.",
+        image: "images/rental-board.jpg"
+      },
+      {
+        id: "rental-full-pack",
+        title: "Daily Board + Wetsuit Pack",
+        category: "rentals",
+        badge: "Daily Rentals",
+        price: "280 MAD / day",
+        description: "Complete daily rental package including surfboard and wetsuit.",
+        image: "images/rental-pack.jpg"
+      }
+    ];
+
+    function escapeText(str) {
+      return String(str || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function updateFilterButtons(activeCategory) {
+      const buttons = document.querySelectorAll(".shop-filter-btn");
+      buttons.forEach((btn) => {
+        const isSelected = btn.getAttribute("data-category") === activeCategory;
+        btn.className = isSelected
+          ? "shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-brand-navy text-white transition-colors cursor-pointer"
+          : "shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer";
+      });
+    }
+
+    window.filterShopItems = function (category = "all") {
+      updateFilterButtons(category);
+      const grid = document.getElementById("shop-grid");
+      if (!grid) return;
+
+      const filtered =
+        category === "all"
+          ? SHOP_ITEMS
+          : SHOP_ITEMS.filter((item) => item.category === category);
+
+      if (!filtered.length) {
+        grid.innerHTML = `<div class="col-span-full text-sm text-slate-500 py-8 text-center">No items in this category yet.</div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered
+        .map((item) => {
+          const safeTitle = escapeText(item.title);
+          const safeBadge = escapeText(item.badge);
+          const safePrice = escapeText(item.price);
+          const safeDesc = escapeText(item.description);
+          const safeImg = escapeText(item.image);
+          const waMsg = encodeURIComponent(
+            `Hello Surf Mood, I'm interested in: ${item.title} (${item.price})`
+          );
+
+          return `
+            <article class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:border-sky-300 transition-colors flex flex-col">
+              <div class="h-60 w-full bg-slate-100 overflow-hidden shrink-0">
+                <img
+                  src="${safeImg}"
+                  alt="${safeTitle}"
+                  class="w-full h-full object-cover object-center block"
+                  onerror="this.style.display='none'"
+                />
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between gap-4">
+                <div>
+                  <div class="flex items-center justify-between gap-2 mb-2">
+                    <span class="text-xs font-bold text-sky-600 bg-sky-50 border border-sky-200 px-2.5 py-0.5 rounded-full">
+                      ${safeBadge}
+                    </span>
+                    <span class="text-sm font-extrabold text-brand-navy">${safePrice}</span>
+                  </div>
+                  <h3 class="text-base font-bold text-brand-navy mb-1">${safeTitle}</h3>
+                  <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${safeDesc}</p>
+                </div>
+
+                <a
+                  href="https://wa.me/${SHOP_PHONE}?text=${waMsg}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center w-full rounded-xl bg-brand-navy hover:bg-slate-800 text-white text-xs sm:text-sm font-bold py-2.5 px-4 transition-colors"
+                >
+                  Book / Inquire on WhatsApp
+                </a>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+      window.filterShopItems("all");
+    });
+  })();
+</script>
+    <!-- شبكة عرض المنتجات -->
+    <div id="shop-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const SHOP_PHONE = "+212 610-515768"; // استبدل برقم واتساب Surf Mood بصيغة دولية بدون +
+
+    const SHOP_ITEMS = [
+      {
+        id: "board-shortboard",
+        title: "Performance Shortboard 6'0\"",
+        category: "boards",
+        badge: "Surfboards",
+        price: "3200 MAD",
+        description: "Responsive shape ideal for Sidi Ifni beach and point breaks.",
+        image: "images/shortboard.jpg"
+      },
+      {
+        id: "board-funboard",
+        title: "Cruiser Funboard 7'2\"",
+        category: "boards",
+        badge: "Surfboards",
+        price: "2900 MAD",
+        description: "Easy paddling and smooth turns for progressing surfers.",
+        image: "ALI BG.jpeg"
+      },
+      {
+        id: "wetsuit-43",
+        title: "Full Wetsuit 4/3mm Chest Zip",
+        category: "gear",
+        badge: "Wetsuits & Gear",
+        price: "1450 MAD",
+        description: "Flexible thermal protection for Atlantic sessions in Sidi Ifni.",
+        image: "images/wetsuit.jpg"
+      },
+      {
+        id: "leash-wax",
+        title: "Surf Leash, Traction & Wax Kit",
+        category: "gear",
+        badge: "Wetsuits & Gear",
+        price: "420 MAD",
+        description: "Essential daily surf kit with durable ankle cuff and grip wax.",
+        image: "shop/alibg.jpg"
+      },
+      {
+        id: "rental-board-day",
+        title: "Daily Surfboard Rental",
+        category: "rentals",
+        badge: "Daily Rentals",
+        price: "200 MAD / day",
+        description: "Soft-top, funboard, or hardboard rental for a full day on the waves.",
+        image: "shop/shortboard.jpg"
+      },
+      {
+        id: "rental-full-pack",
+        title: "Daily Board + Wetsuit Pack",
+        category: "rentals",
+        badge: "Daily Rentals",
+        price: "280 MAD / day",
+        description: "Complete daily rental package including surfboard and wetsuit.",
+        image: "images/rental-pack.jpg"
+      }
+    ];
+
+    function escapeText(str) {
+      return String(str || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function updateFilterButtons(activeCategory) {
+      const buttons = document.querySelectorAll(".shop-filter-btn");
+      buttons.forEach((btn) => {
+        const isSelected = btn.getAttribute("data-category") === activeCategory;
+        btn.className = isSelected
+          ? "shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-brand-navy text-white transition-colors cursor-pointer"
+          : "shop-filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer";
+      });
+    }
+
+    window.filterShopItems = function (category = "all") {
+      updateFilterButtons(category);
+      const grid = document.getElementById("shop-grid");
+      if (!grid) return;
+
+      const filtered =
+        category === "all"
+          ? SHOP_ITEMS
+          : SHOP_ITEMS.filter((item) => item.category === category);
+
+      if (!filtered.length) {
+        grid.innerHTML = `<div class="col-span-full text-sm text-slate-500 py-8 text-center">No items in this category yet.</div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered
+        .map((item) => {
+          const safeTitle = escapeText(item.title);
+          const safeBadge = escapeText(item.badge);
+          const safePrice = escapeText(item.price);
+          const safeDesc = escapeText(item.description);
+          const safeImg = escapeText(item.image);
+          const waMsg = encodeURIComponent(
+            `Hello Surf Mood, I'm interested in: ${item.title} (${item.price})`
+          );
+
+          return `
+            <article class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:border-sky-300 transition-colors flex flex-col">
+              <div class="h-48 w-full bg-slate-100 overflow-hidden">
+                <img
+                  src="${safeImg}"
+                  alt="${safeTitle}"
+                  class="w-full h-full object-contain bg-slate-100"
+                  onerror="this.style.display='none'"
+                />
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between gap-4">
+                <div>
+                  <div class="flex items-center justify-between gap-2 mb-2">
+                    <span class="text-xs font-bold text-sky-600 bg-sky-50 border border-sky-200 px-2.5 py-0.5 rounded-full">
+                      ${safeBadge}
+                    </span>
+                    <span class="text-sm font-extrabold text-brand-navy">${safePrice}</span>
+                  </div>
+                  <h3 class="text-base font-bold text-brand-navy mb-1">${safeTitle}</h3>
+                  <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${safeDesc}</p>
+                </div>
+
+                <a
+                  href="https://wa.me/${SHOP_PHONE}?text=${waMsg}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center w-full rounded-xl bg-brand-navy hover:bg-slate-800 text-white text-xs sm:text-sm font-bold py-2.5 px-4 transition-colors"
+                >
+                  Book / Inquire on WhatsApp
+                </a>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+      window.filterShopItems("all");
+    });
+  })();
+</script>
+  <!-- ==================== 6. قسم عرض ملف إنستغرام (شبكة 3x3 بصور مباشرة) ==================== -->
+      <section id="instagram-showcase" class="py-16 sm:py-24 bg-white text-[#0c272e] border-t border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-8 mb-8 border-b border-slate-200">
+      <div class="flex items-center gap-4">
+        <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" class="w-16 h-16 rounded-full p-0.5 bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 shrink-0">
+          <img src="logo.jpg.jpg"
+               alt="@surf_mood__"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=300&q=80';"
+               class="w-full h-full rounded-full object-cover bg-white border-2 border-white" />
+        </a>
+        <div>
+          <div class="flex items-center gap-2">
+            <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" class="text-xl font-extrabold text-[#0c272e] hover:text-sky-600 transition">
+              @surf_mood__
+            </a>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 text-[11px] font-bold">Sidi Ifni</span>
+          </div>
+          <p class="text-sm text-slate-500 mt-0.5" data-i18n="ig_bio">
+            Surf Mood Sidi Ifni • Daily waves, surf coaching, guiding &amp; shop updates.
+          </p>
+        </div>
+      </div>
+
+      <a href="https://www.instagram.com/surf_mood__/"
+         target="_blank"
+         rel="noopener"
+         class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#0c272e] hover:bg-slate-800 text-white font-bold text-sm transition cursor-pointer whitespace-nowrap">
+        <span>Follow on Instagram</span>
+        <span>↗</span>
+      </a>
+    </div>
+
+    <behold-widget feed-id="ErJGcJaDfF3IWRRVpMOb"></behold-widget>
+
+  </div>
+</section>
+
+<script>
+  (() => {
+    if (window.__bhldScript) return;
+    window.__bhldScript = true;
+    const d = document, s = d.createElement("script");
+    s.type = "module";
+    s.src = "https://w.behold.so/widget.js";
+    setTimeout(() => { d.head.append(s); }, 0);
+  })();
+</script>
+        
+  <!-- ==================== 7. قسم الفيديوهات (Videos) ==================== -->
+ <!-- ==================== 7. قسم الفيديوهات (Videos) ==================== -->
+<section id="videos" class="py-16 sm:py-24 bg-[#0f172a] text-white border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+      <div>
+        <span data-i18n="vid_tag" class="text-sky-300 font-bold text-xs uppercase tracking-widest">Surf Clips &amp; Sessions</span>
+        <h2 data-i18n="vid_title" class="font-display font-extrabold text-3xl sm:text-4xl mt-2">Surf Videos in Sidi Ifni</h2>
+        <p data-i18n="vid_subtitle" class="text-slate-300 mt-2 max-w-2xl">Watch coaching clips, wave sessions, and shop highlights directly on the page.</p>
+      </div>
+    </div>
+
+    <div id="videos-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div>
+</section>
+
+<script>
+  const surfVideos = [
+    {
+      id: 'v1',
+      title: 'Sidi Ifni Wave Riding Session',
+      desc: 'Coaching and clean Atlantic waves along the coast of Sidi Ifni.',
+      src: 'videos/v1.mp4',
+      poster: 'videos/v1.jpg',
+      fallbackPoster: 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 'v2',
+      title: 'Atlantic Swell & Beach Breaks',
+      desc: 'Daily swell and tide checks for beginner and intermediate surfers.',
+      src: 'ALI6.mp4',
+      poster: 'videos/v2.jpg',
+      fallbackPoster: 'https://images.unsplash.com/photo-1455264745730-cbe3058816a0?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 'v3',
+      title: 'Heading to the Surf Spot',
+      desc: 'Local transport and spot guiding around Sidi Ifni with Surf Mood.',
+      src: 'ALI5.mp4',
+      poster: 'ALI5.jpg',
+      fallbackPoster: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80'
+    }
+  ];
+
+  function getYouTubeEmbedUrl(url) {
+    if (!url) return null;
+    const shortMatch = url.match(/youtu\.be\/([a-zA-Z0-9_-]{6,})/);
+    if (shortMatch) return `https://www.youtube.com/embed/${shortMatch[1]}`;
+    const longMatch = url.match(/[?&]v=([a-zA-Z0-9_-]{6,})/);
+    if (longMatch) return `https://www.youtube.com/embed/${longMatch[1]}`;
+    return null;
+  }
+
+  window.startSurfVideo = function (vidId) {
+    const cover = document.getElementById(`vid-cover-${vidId}`);
+    const player = document.getElementById(`vid-player-${vidId}`);
+    if (cover) cover.classList.add('hidden');
+    if (player) {
+      player.classList.remove('hidden');
+      player.play().catch(() => {});
+    }
+  };
+
+  function renderVideos() {
+    const grid = document.getElementById('videos-grid');
+    if (!grid) return;
+
+    const defaultFallback = 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80';
+
+    grid.innerHTML = surfVideos.map((vid) => {
+      const posterSrc = vid.poster || vid.fallbackPoster || defaultFallback;
+      const fallbackSrc = vid.fallbackPoster || defaultFallback;
+      const ytEmbed = getYouTubeEmbedUrl(vid.src);
+
+      const mediaHtml = ytEmbed
+        ? `<iframe src="${ytEmbed}" title="${vid.title}" class="w-full h-64 rounded-xl bg-black" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>`
+        : `<div class="relative w-full h-64 rounded-xl overflow-hidden bg-black flex items-center justify-center">
+             <div id="vid-cover-${vid.id}"
+                  onclick="startSurfVideo('${vid.id}')"
+                  class="relative w-full h-full cursor-pointer group flex items-center justify-center">
+               <img src="${posterSrc}"
+                    alt="${vid.title}"
+                    onerror="this.onerror=null; this.src='${fallbackSrc}';"
+                    class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105" />
+               <div class="absolute inset-0 bg-black/30 group-hover:bg-black/45 transition-colors flex items-center justify-center">
+                 <div class="w-14 h-14 rounded-full bg-sky-500/95 group-hover:bg-sky-400 text-white flex items-center justify-center shadow-xl transition-transform group-hover:scale-110">
+                   <svg class="w-6 h-6 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                 </div>
+               </div>
+             </div>
+             <video id="vid-player-${vid.id}"
+                    controls
+                    playsinline
+                    preload="metadata"
+                    poster="${posterSrc}"
+                    class="hidden w-full h-full object-contain bg-black">
+               <source src="${vid.src}" type="video/mp4">
+             </video>
+           </div>`;
+
+      return `
+        <div class="bg-[#162836] border border-white/10 rounded-3xl p-5 flex flex-col justify-between shadow-xl">
+          <div>
+            <div class="mb-4 overflow-hidden rounded-xl bg-black">${mediaHtml}</div>
+            <h3 class="font-bold text-lg text-white mb-1.5">${vid.title}</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">${vid.desc}</p>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    renderVideos();
+  });
+</script>
+
+  <!-- ==================== 8. قسم الريفيو والتعليقات العامة ==================== -->
+  <section id="reviews" class="py-16 bg-slate-50 border-t border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- رأس القسم وملخص التقييم -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+      <div>
+        <span class="inline-block text-xs font-bold uppercase tracking-wider text-sky-600 bg-sky-50 border border-sky-200 px-3 py-1 rounded-full mb-2">
+          Surfer Reviews
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-navy">
+          What Surfers Say About Surf Mood
+        </h2>
+      </div>
+      <div class="flex items-center gap-2 bg-white px-4 py-2.5 rounded-2xl border border-slate-200 shadow-sm w-fit">
+        <span id="reviews-summary-avg" class="text-lg font-extrabold text-amber-500">5.0 ★</span>
+        <span id="reviews-summary-count" class="text-sm text-slate-500">(0 reviews)</span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <!-- نموذج إضافة تقييم جديد -->
+      <div class="lg:col-span-5 bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+        <h3 class="text-lg font-bold text-brand-navy mb-1">Share Your Experience</h3>
+        <p class="text-xs text-slate-500 mb-5">
+          Your review is saved to Firestore and visible to all visitors.
+        </p>
+
+        <form id="review-form" onsubmit="handleReviewSubmit(event)" class="space-y-4">
+          <div>
+            <label for="reviewer-name" class="block text-xs font-bold text-slate-700 mb-1.5">
+              Your Name *
+            </label>
+            <input
+              type="text"
+              id="reviewer-name"
+              name="name"
+              required
+              placeholder="e.g. Youssef / Alex"
+              class="w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none focus:border-sky-500"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label for="reviewer-country" class="block text-xs font-bold text-slate-700 mb-1.5">
+                Country / City
+              </label>
+              <input
+                type="text"
+                id="reviewer-country"
+                name="country"
+                placeholder="e.g. Morocco / France"
+                class="w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none focus:border-sky-500"
+              />
+            </div>
+
+            <div>
+              <label for="reviewer-rating" class="block text-xs font-bold text-slate-700 mb-1.5">
+                Rating *
+              </label>
+              <select
+                id="reviewer-rating"
+                name="rating"
+                class="w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800 bg-white focus:outline-none focus:border-sky-500"
+              >
+                <option value="5" selected>★★★★★ (5 - Excellent)</option>
+                <option value="4">★★★★☆ (4 - Very Good)</option>
+                <option value="3">★★★☆☆ (3 - Good)</option>
+                <option value="2">★★☆☆☆ (2 - Fair)</option>
+                <option value="1">★☆☆☆☆ (1 - Poor)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="reviewer-comment" class="block text-xs font-bold text-slate-700 mb-1.5">
+              Your Review *
+            </label>
+            <textarea
+              id="reviewer-comment"
+              name="comment"
+              rows="4"
+              required
+              placeholder="Tell others about coaching, waves, boards, or your vibe in Sidi Ifni..."
+              class="w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-800 focus:outline-none focus:border-sky-500"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full rounded-xl bg-brand-navy hover:bg-slate-800 text-white font-bold text-sm py-3 px-4 transition-colors cursor-pointer"
+          >
+            Publish Review
+          </button>
+        </form>
+      </div>
+
+      <!-- قائمة التعليقات المنشورة -->
+      <div class="lg:col-span-7">
+        <div id="reviews-list" class="space-y-4">
+          <div class="text-sm text-slate-500 py-4">Loading reviews...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ==================== 9. نموذج الحجز ==================== -->
+  <section id="booking" class="py-14 sm:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span data-i18n="book_tag" class="text-sky-700 font-bold text-xs uppercase tracking-widest">Instant WhatsApp Booking</span>
+        <h2 data-i18n="book_title" class="font-display font-extrabold text-3xl sm:text-4xl text-brand-navy mt-2">Book Your Surf Session or Gear</h2>
+        <p data-i18n="book_desc" class="text-slate-600 mt-2 text-sm sm:text-base">Fill out your preferences below to preview and send your message straight to +212 610-515768.</p>
+      </div>
+
+      <form id="booking-form" onsubmit="handleBookingSubmit(event)" class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-sm space-y-5">
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label for="guest-name" data-i18n="form_name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Your Name *</label>
+            <input type="text" id="guest-name" required oninput="updateMessagePreview()" placeholder="e.g. Youssef / Clara" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm">
+          </div>
+
+          <div>
+            <label for="service-select" data-i18n="form_service" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Select Service *</label>
+            <select id="service-select" onchange="updateMessagePreview()" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm">
+              <option value="Personal Surf Coaching">Personal Surf Coaching</option>
+              <option value="Surf Lessons">Surf Lessons</option>
+              <option value="Surf Guiding">Surf Guiding</option>
+              <option value="Surf Shop / Rental">Surf Shop / Gear Rental</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-3 gap-5">
+          <div>
+            <label for="skill-level" data-i18n="form_level" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Level</label>
+            <select id="skill-level" onchange="updateMessagePreview()" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm">
+              <option value="Beginner">Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Experienced / Guiding">Experienced / Guiding</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="preferred-date" data-i18n="form_date" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Preferred Date</label>
+            <input type="date" id="preferred-date" onchange="updateMessagePreview()" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm">
+          </div>
+
+          <div>
+            <label for="guests-count" data-i18n="form_guests" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">People</label>
+            <input type="number" id="guests-count" min="1" max="20" value="1" oninput="updateMessagePreview()" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm">
+          </div>
+        </div>
+
+        <div>
+          <label for="booking-notes" data-i18n="form_notes" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Notes / Gear Request</label>
+          <textarea id="booking-notes" rows="2" oninput="updateMessagePreview()" placeholder="Wetsuit size, board type, arrival time..." class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 outline-none text-sm"></textarea>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-4">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1" data-i18n="preview_label">WhatsApp Message Preview</div>
+          <p id="wa-preview" class="text-sm text-slate-700 whitespace-pre-line"></p>
+        </div>
+
+        <button type="submit" class="w-full py-4 px-6 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-base shadow-lg shadow-emerald-500/20 transition-all cursor-pointer">
+          <span data-i18n="btn_send_wa">Send Booking via WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== 10. التذييل ==================== -->
+  <footer id="location" class="bg-brand-navy text-slate-300 pt-15 pb-10 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+
+                <!-- Brand & Logo in Footer -->
+                <div class="md:col-span-4 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full overflow-hidden ring-2 ring-white/20 bg-brand-slate shrink-0">
+                            <img src="logo.jpg.jpg"
+                                 alt="Surf Mood Logo"
+                                 onerror="this.onerror=null; this.src=logo.jpg"
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-display font-extrabold text-white text-xl">SURF MOOD</h3>
+                            <p class="text-xs text-brand-sand uppercase tracking-widest">Sidi Ifni • Morocco</p>
+                        </div>
+                    </div>
+                    <p data-i18n="footer_desc" class="text-sm text-slate-400 leading-relaxed">
+                        Catch the waves with Surf Mood. Surf shop, personal surf coaching, surf lessons, and surf guiding in Sidi Ifni.
+                    </p>
+                    <div class="flex items-center gap-3 pt-1">
+                        <a href="https://wa.me/212610515768" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-10 h-10 rounded-full bg-white/10 hover:bg-emerald-500 text-white flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" aria-label="Instagram" class="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-600 text-white flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-instagram text-lg"></i>
+                        </a>
+                        <a href="https://www.facebook.com/search/top?q=Surf%20Mood" target="_blank" rel="noopener" aria-label="Facebook" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-600 text-white flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-facebook-f text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Address, Phone & Google Maps Link -->
+                <div class="md:col-span-4 space-y-4">
+                    <h4 data-i18n="footer_find_us" class="font-display font-bold text-white text-base uppercase tracking-wider">Find Us in Sidi Ifni</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-brand-ocean mt-1"></i>
+                            <a href="https://maps.app.goo.gl/D8D4u2dDMgDLzqsw9" target="_blank" rel="noopener" class="hover:text-white transition-colors">
+                                N, 1 Bd Moulay Youssef, Sidi Ifni 85200, Morocco
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-brand-sand"></i>
+                            <a href="tel:+212610515768" class="hover:text-white transition-colors font-semibold" dir="ltr">+212 610-515768</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-brands fa-instagram text-pink-400"></i>
+                            <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" class="hover:text-white transition-colors">@surf_mood__</a>
+                        </li>
+                    </ul>
+                    <div class="pt-2 flex flex-wrap gap-2">
+                        <a href="https://maps.app.goo.gl/D8D4u2dDMgDLzqsw9" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-brand-ocean hover:bg-brand-oceanDark text-white text-xs font-bold transition-colors">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span data-i18n="btn_gmaps">Open in Google Maps</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map Card -->
+                <div class="md:col-span-4">
+                    <div class="rounded-2xl overflow-hidden border border-white/15 bg-brand-slate shadow-lg">
+                        <div class="relative h-44 w-full bg-slate-800">
+                            <iframe
+                                title="Surf Mood Sidi Ifni Map"
+                                class="w-full h-full border-0 opacity-90"
+                                loading="lazy"
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=-10.1850%2C29.3700%2C-10.1650%2C29.3860&amp;layer=mapnik&amp;marker=29.3782%2C-10.1753">
+                            </iframe>
+                        </div>
+                        <div class="p-3.5 bg-brand-slate flex items-center justify-between">
+                            <span class="text-xs font-semibold text-white">N, 1 Bd Moulay Youssef, Sidi Ifni</span>
+                            <a href="https://maps.app.goo.gl/D8D4u2dDMgDLzqsw9" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-ocean hover:text-sky-300">
+                                <span>Google Maps</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; <span id="year"></span> Surf Mood Sidi Ifni. All rights reserved.</p>
+                <p>N, 1 Bd Moulay Youssef, Sidi Ifni 85200, Morocco</p>
+            </div>
+        </div>
+    </footer>
+
+  
+
+  <!-- ==================== 11. نافذة التكبير ==================== -->
+  <div id="lightbox-modal" onclick="closeLightbox()" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-sm flex items-center justify-center p-4">
+    <div onclick="event.stopPropagation()" class="relative max-w-5xl w-full">
+      <button type="button"
+              onclick="closeLightbox()"
+              aria-label="Close"
+              class="absolute -top-11 right-0 text-white hover:text-amber-300 text-2xl font-bold cursor-pointer">
+        ✕
+      </button>
+      <img id="lightbox-img" src="" alt="Full view" class="w-full max-h-[82vh] object-contain rounded-2xl bg-black" />
+    </div>
+  </div>
+
+ 
+  <!-- ==================== 13. سكربت المتجر وإنستغرام والفيديوهات والريفيو والحجز واللغات ==================== -->
+  <script>
+    const WA_PHONE = "212610515768";
+
+    // ضع صور منتجاتك هنا أنت (ملفات محلية مثل 'shop/board1.jpg' أو روابط صور من اختيارك)
+    const shopItems = [
+      {
+        id: 1,
+        category: 'boards',
+        badge: 'For Sale',
+        badgeColor: 'bg-sky-600 text-white',
+        title: '6\'2" Performance Shortboard',
+        desc: "Responsive shape built for punchy point breaks and hollow swells around Sidi Ifni.",
+        priceMAD: '2,800 MAD',
+        priceEUR: '~ €255',
+        img: 'alibg.jpg',
+        fallbackImg: 'coach1/ALI1.jpg'
+      },
+      {
+        id: 2,
+        category: 'boards',
+        badge: 'Popular',
+        badgeColor: 'bg-amber-500 text-brand-navy',
+        title: '7\'6" All-Around Funboard',
+        desc: "Easy paddling and smooth turns for progressing surfers and relaxed coastal sessions.",
+        priceMAD: '3,100 MAD',
+        priceEUR: '~ €285',
+        img: 'shop/funboard.jpg',
+        fallbackImg: 'https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=900&q=80'
+      },
+      {
+        id: 3,
+        category: 'gear',
+        badge: 'In Stock',
+        badgeColor: 'bg-emerald-500 text-white',
+        title: '3/2mm Full Stretch Wetsuit',
+        desc: "Flexible wetsuit suited to Atlantic temperatures on Morocco's southern coast.",
+        priceMAD: '1,450 MAD',
+        priceEUR: '~ €135',
+        img: 'shortboard.jpg',
+        fallbackImg: 'shortboard.jpeg'
+      },
+      {
+        id: 4,
+        category: 'gear',
+        badge: 'Essentials',
+        badgeColor: 'bg-slate-800 text-white',
+        title: 'Leash, Fins & Surf Wax Kit',
+        desc: "Durable surf leash, fin set, and surf wax ready for Sidi Ifni's breaks.",
+        priceMAD: '250 MAD',
+        priceEUR: '~ €23',
+        img: 'shop/gear-kit.jpg',
+        fallbackImg: 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=900&q=80'
+      },
+      {
+        id: 5,
+        category: 'rentals',
+        badge: 'Daily Rental',
+        badgeColor: 'bg-sky-500 text-white',
+        title: 'Full Day Surfboard Rental',
+        desc: "Soft-tops, funboards, and shortboards available for daily pickup at our shop.",
+        priceMAD: '100 MAD',
+        priceEUR: '~ €10',
+        img: 'shop/rental-board.jpg',
+        fallbackImg: 'https://images.unsplash.com/photo-1455264745730-cbe3058816a0?auto=format&fit=crop&w=900&q=80'
+      },
+      {
+        id: 6,
+        category: 'rentals',
+        badge: 'Combo',
+        badgeColor: 'bg-amber-500 text-brand-navy',
+        title: 'Board + Wetsuit Daily Pack',
+        desc: "Complete surf setup for the day at N, 1 Bd Moulay Youssef, Sidi Ifni.",
+        priceMAD: '180 MAD',
+        priceEUR: '~ €17',
+        img: 'shop/combo-pack.jpg',
+        fallbackImg: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80'
+      }
+    ];
+
+    // شبكة 9 منشورات (3x3) بصور مباشرة تعمل فوراً (ويمكنك استبدال أي thumb بصورتك الخاصة)
+    const instagramPosts = [
+      {
+        type: 'video',
+        thumb: 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80',
+        videoSrc: 'https://assets.mixkit.co/videos/preview/mixkit-surfer-riding-a-wave-42874-large.mp4',
+        caption: 'Morning waves in Sidi Ifni'
+      },
+      {
+        type: 'video',
+        thumb: 'https://images.unsplash.com/photo-1455264745730-cbe3058816a0?auto=format&fit=crop&w=800&q=80',
+        videoSrc: 'https://assets.mixkit.co/videos/preview/mixkit-ocean-waves-crashing-on-a-sandy-beach-42862-large.mp4',
+        caption: 'Coaching session with Ali'
+      },
+      {
+        type: 'video',
+        thumb: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80',
+        videoSrc: 'https://assets.mixkit.co/videos/preview/mixkit-man-walking-on-the-beach-with-a-surfboard-42879-large.mp4',
+        caption: 'POV: Going surfing in Sidi Ifni'
+      },
+      {
+        type: 'carousel',
+        thumb: 'https://images.unsplash.com/photo-1531722569936-825d3dd91b15?auto=format&fit=crop&w=800&q=80',
+        caption: 'Surfboards & Quiver at Surf Mood'
+      },
+      {
+        type: 'carousel',
+        thumb: 'https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=800&q=80',
+        caption: 'Beach warm-up & surf posture'
+      },
+      {
+        type: 'video',
+        thumb: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+        videoSrc: 'https://assets.mixkit.co/videos/preview/mixkit-surfer-riding-a-wave-42874-large.mp4',
+        caption: 'Sidi Ifni coast & swells'
+      },
+      {
+        type: 'carousel',
+        thumb: 'https://images.unsplash.com/photo-1505455184862-554165e5f6ba?auto=format&fit=crop&w=800&q=80',
+        caption: 'Wetsuits & surf gear'
+      },
+      {
+        type: 'video',
+        thumb: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
+        videoSrc: 'https://assets.mixkit.co/videos/preview/mixkit-ocean-waves-crashing-on-a-sandy-beach-42862-large.mp4',
+        caption: 'Atlantic surf vibes'
+      },
+      {
+        type: 'carousel',
+        thumb: 'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=800&q=80',
+        caption: 'Team Surf Mood Sidi Ifni'
+      }
+    ];
+
+    function renderInstagramGrid() {
+      const grid = document.getElementById('ig-grid');
+      if (!grid) return;
+
+      const fallback = 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80';
+
+      grid.innerHTML = instagramPosts.map((post, idx) => {
+        const badgeIcon = post.type === 'video'
+          ? `<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+               <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-black/35 backdrop-blur-[2px] flex items-center justify-center shadow-lg">
+                 <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+               </div>
+             </div>`
+          : post.type === 'carousel'
+          ? `<div class="absolute top-2.5 right-2.5 pointer-events-none text-white drop-shadow">
+               <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+             </div>`
+          : '';
+
+        return `
+          <button type="button"
+                  onclick="openIgPost(${idx})"
+                  class="group relative aspect-square w-full overflow-hidden bg-slate-100 focus:outline-none cursor-pointer">
+            <img src="${post.thumb}"
+                 alt="${post.caption}"
+                 onerror="this.onerror=null; this.src='${fallback}';"
+                 class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-black/15 group-hover:bg-black/30 transition-colors"></div>
+            ${badgeIcon}
+          </button>
+        `;
+      }).join('');
+    }
+
+    window.openIgPost = function (index) {
+      const post = instagramPosts[index];
+      if (!post) return;
+
+      const modal = document.getElementById('lightbox-modal');
+      const container = modal?.querySelector('div');
+      if (!modal || !container) return;
+
+      if (post.type === 'video' && post.videoSrc) {
+        container.innerHTML = `
+          <button type="button" onclick="closeLightbox()" aria-label="Close" class="absolute -top-11 right-0 text-white hover:text-amber-300 text-2xl font-bold cursor-pointer">✕</button>
+          <video controls autoplay playsinline poster="${post.thumb}" class="w-full max-h-[82vh] rounded-2xl bg-black">
+            <source src="${post.videoSrc}" type="video/mp4">
+          </video>
+          <div class="mt-3 flex items-center justify-between text-white text-sm">
+            <span>${post.caption}</span>
+            <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" class="text-amber-300 font-bold hover:underline">View on Instagram ↗</a>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <button type="button" onclick="closeLightbox()" aria-label="Close" class="absolute -top-11 right-0 text-white hover:text-amber-300 text-2xl font-bold cursor-pointer">✕</button>
+          <img id="lightbox-img" src="${post.thumb}" alt="${post.caption}" class="w-full max-h-[82vh] object-contain rounded-2xl bg-black" />
+          <div class="mt-3 flex items-center justify-between text-white text-sm">
+            <span>${post.caption}</span>
+            <a href="https://www.instagram.com/surf_mood__/" target="_blank" rel="noopener" class="text-amber-300 font-bold hover:underline">View on Instagram ↗</a>
+          </div>
+        `;
+      }
+
+      modal.classList.remove('hidden');
+    };
+
+    // فقرة الفيديوهات (يمكنك تبديل src بملفاتك المحلية مثل 'videos/surf1.mp4' أو روابط يوتيوب)
+    const surfVideos = [
+      {
+        id: 'v1',
+        title: 'Sidi Ifni Wave Riding Session',
+        desc: 'Coaching and clean Atlantic waves along the coast of Sidi Ifni.',
+        src: 'https://assets.mixkit.co/videos/preview/mixkit-surfer-riding-a-wave-42874-large.mp4',
+        poster: 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=800&q=80'
+      },
+      {
+        id: 'v2',
+        title: 'Atlantic Swell & Beach Breaks',
+        desc: 'Daily swell and tide checks for beginner and intermediate surfers.',
+        src: 'https://assets.mixkit.co/videos/preview/mixkit-ocean-waves-crashing-on-a-sandy-beach-42862-large.mp4',
+        poster: 'https://images.unsplash.com/photo-1455264745730-cbe3058816a0?auto=format&fit=crop&w=800&q=80'
+      },
+      {
+        id: 'v3',
+        title: 'Heading to the Surf Spot',
+        desc: 'Local transport and spot guiding around Sidi Ifni with Surf Mood.',
+        src: 'https://assets.mixkit.co/videos/preview/mixkit-man-walking-on-the-beach-with-a-surfboard-42879-large.mp4',
+        poster: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80'
+      }
+    ];
+
+    function getYouTubeEmbedUrl(url) {
+      if (!url) return null;
+      const shortMatch = url.match(/youtu\.be\/([a-zA-Z0-9_-]{6,})/);
+      if (shortMatch) return `https://www.youtube.com/embed/${shortMatch[1]}`;
+      const longMatch = url.match(/[?&]v=([a-zA-Z0-9_-]{6,})/);
+      if (longMatch) return `https://www.youtube.com/embed/${longMatch[1]}`;
+      return null;
+    }
+
+    function renderVideos() {
+      const grid = document.getElementById('videos-grid');
+      if (!grid) return;
+
+      grid.innerHTML = surfVideos.map((vid) => {
+        const ytEmbed = getYouTubeEmbedUrl(vid.src);
+        const mediaHtml = ytEmbed
+          ? `<iframe src="${ytEmbed}" title="${vid.title}" class="w-full h-56 rounded-xl bg-black" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>`
+          : `<video controls preload="metadata" poster="${vid.poster || ''}" class="w-full h-56 rounded-xl bg-black object-cover">
+               <source src="${vid.src}" type="video/mp4">
+             </video>`;
+
+        return `
+          <div class="bg-[#162836] border border-white/10 rounded-3xl p-5 flex flex-col justify-between shadow-xl">
+            <div>
+              <div class="mb-4 overflow-hidden rounded-xl bg-black">${mediaHtml}</div>
+              <h3 class="font-bold text-lg text-white mb-1.5">${vid.title}</h3>
+              <p class="text-sm text-slate-300 leading-relaxed">${vid.desc}</p>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    const defaultReviews = [
+      {
+        id: 'r1',
+        name: 'Youssef B.',
+        country: 'Agadir, Morocco',
+        rating: 5,
+        comment: 'Great coaching with Ali in Sidi Ifni. Clear wave guidance and friendly local atmosphere.',
+        date: '2026-10-14'
+      },
+      {
+        id: 'r2',
+        name: 'Clara M.',
+        country: 'Lyon, France',
+        rating: 5,
+        comment: 'Booked a surf session and board rental easily on WhatsApp. Very helpful and welcoming.',
+        date: '2026-11-02'
+      }
+    ];
+
+    const REVIEWS_STORAGE_KEY = 'surf_mood_public_reviews_v1';
+
+    function getPublicReviews() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(REVIEWS_STORAGE_KEY) || 'null');
+        if (Array.isArray(saved) && saved.length) return saved;
+      } catch (e) {}
+      return [...defaultReviews];
+    }
+
+    function savePublicReviews(list) {
+      try {
+        localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(list));
+      } catch (e) {}
+    }
+
+    function renderReviews() {
+      const listEl = document.getElementById('reviews-list');
+      const avgEl = document.getElementById('reviews-summary-avg');
+      const countEl = document.getElementById('reviews-summary-count');
+      const coachAvgEl = document.getElementById('coach-avg-rating');
+      const coachCountEl = document.getElementById('coach-reviews-count');
+
+      const reviews = getPublicReviews();
+      const total = reviews.length;
+      const avg = total
+        ? (reviews.reduce((sum, item) => sum + Number(item.rating || 5), 0) / total).toFixed(1)
+        : '5.0';
+
+      if (avgEl) avgEl.textContent = `${avg} ★`;
+      if (countEl) countEl.textContent = `(${total} ${total === 1 ? 'review' : 'reviews'})`;
+      if (coachAvgEl) coachAvgEl.textContent = avg;
+      if (coachCountEl) coachCountEl.textContent = `from ${total} reviews`;
+
+      if (!listEl) return;
+
+      listEl.innerHTML = reviews.map((rev) => {
+        const stars = '★'.repeat(Number(rev.rating || 5)) + '☆'.repeat(5 - Number(rev.rating || 5));
+        const safeName = String(rev.name || 'Visitor').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const safeCountry = String(rev.country || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const safeComment = String(rev.comment || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const safeDate = String(rev.date || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const initial = safeName.trim().charAt(0).toUpperCase() || 'S';
+
+        return `
+          <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm hover:border-sky-300 transition-colors">
+            <div class="flex items-start justify-between gap-3 mb-3">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-brand-navy text-white font-extrabold text-sm flex items-center justify-center shrink-0">
+                  ${initial}
+                </div>
+                <div>
+                  <div class="font-bold text-brand-navy text-base leading-tight">${safeName}</div>
+                  <div class="text-xs text-slate-500 mt-0.5">${safeCountry ? safeCountry + ' • ' : ''}${safeDate}</div>
+                </div>
+              </div>
+              <div class="px-2.5 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-500 text-xs font-bold tracking-wider whitespace-nowrap">
+                ${stars}
+              </div>
+            </div>
+            <p class="text-sm text-slate-700 leading-relaxed">${safeComment}</p>
+          </div>
+        `;
+      }).join('');
+    }
+
+    window.handleReviewSubmit = function (e) {
+      e.preventDefault();
+      const nameInput = document.getElementById('reviewer-name');
+      const countryInput = document.getElementById('reviewer-country');
+      const ratingInput = document.getElementById('reviewer-rating');
+      const commentInput = document.getElementById('reviewer-comment');
+
+      const name = (nameInput?.value || '').trim();
+      const country = (countryInput?.value || '').trim();
+      const rating = Number(ratingInput?.value || 5);
+      const comment = (commentInput?.value || '').trim();
+
+      if (!name || !comment) return;
+
+      const updated = [
+        {
+          id: 'r_' + Date.now(),
+          name,
+          country,
+          rating,
+          comment,
+          date: new Date().toISOString().slice(0, 10)
+        },
+        ...getPublicReviews()
+      ];
+
+      savePublicReviews(updated);
+      renderReviews();
+      e.target.reset();
+    };
+
+    const translations = {
+      en: {
+        nav_coaches: "Coaches",
+        nav_services: "Services",
+        nav_shop: "Surf Shop",
+        nav_ig: "Instagram",
+        nav_videos: "Videos",
+        nav_reviews: "Reviews",
+        nav_booking: "Booking",
+        hero_title: 'Catch the Waves with <span class="text-sky-300">Surf Mood</span>',
+        hero_subtitle: "Discover the waves of Sidi Ifni with local surf coaches, professional surf guiding, quality equipment, and authentic Moroccan hospitality.",
+        hero_cta_wa: "Book via WhatsApp",
+        hero_cta_coaches: "Meet Our Coaches",
+        coach_tag: "Surf Coach",
+        coach_heading: "Meet Your Instructor",
+        badge_trusted: "Trusted",
+        badge_isa: "ISA certified",
+        badge_kids: "Kids & beginners",
+        coach_location: "Local surf instructor and founder of Surf Mood",
+        coach_bio_1: "Offering personalized coaching, local wave knowledge and unforgettable surf experiences along the coast of Sidi Ifni.",
+        stat_years: "years teaching",
+        stat_langs: "languages",
+        btn_wa_coach: "Message on WhatsApp",
+        btn_see_lessons: "See lessons",
+        price_note: "From 30 € · no commission",
+        srv_tag: "What We Offer",
+        srv_title: "Our Surf Services",
+        srv_subtitle: "Personal surf coaching, structured surf lessons, local guiding, and a complete surf shop in Sidi Ifni.",
+        srv1_badge: "1-on-1 Focus",
+        srv1_title: "Personal Surf Coaching",
+        srv1_desc: "Dedicated one-on-one coaching focused on pop-up speed, wave selection, turns, and ocean confidence.",
+        srv2_badge: "All Levels",
+        srv2_title: "Surf Lessons",
+        srv2_desc: "Safe, welcoming beginner and intermediate lessons on Sidi Ifni's sandy breaks with board and wetsuit included.",
+        srv3_badge: "Sidi Ifni",
+        srv3_title: "Surf Guiding",
+        srv3_desc: "Daily swell and tide checks with local transport to score the best point and beach breaks around Sidi Ifni.",
+        btn_book_wa: "Book Session",
+        shop_card_title: "Surf Shop",
+        shop_desc: "Visit N, 1 Bd Moulay Youssef for surfboards, wetsuits, wax, leashes, fins, and daily board rentals.",
+        shop_price: "From 100 MAD",
+        shop_tag: "Rentals & Gear",
+        shop_btn_catalog: "Catalog",
+        shop_btn_location: "Map",
+        shop_kicker: "Boutique de Surf • Sidi Ifni",
+        shop_title: "Surf Shop & Rentals",
+        shop_subtitle: "Boards, wetsuits, surf accessories, and daily rentals at N, 1 Bd Moulay Youssef.",
+        filter_all: "All Items",
+        filter_boards: "Surfboards",
+        filter_gear: "Wetsuits & Gear",
+        filter_rentals: "Daily Rentals",
+        ig_bio: "Surf Mood Sidi Ifni • Daily waves, surf coaching, guiding & shop updates.",
+        vid_tag: "Surf Clips & Sessions",
+        vid_title: "Surf Videos in Sidi Ifni",
+        vid_subtitle: "Watch coaching clips, wave sessions, and shop highlights directly on the page.",
+        rev_tag: "Community Reviews",
+        rev_title: "Share Your Experience",
+        rev_desc: "Your comment is displayed publicly so everyone visiting the page can read it.",
+        rev_name_label: "Your Name *",
+        rev_country_label: "City / Country",
+        rev_rating_label: "Rating *",
+        rev_comment_label: "Your Comment *",
+        rev_submit_btn: "Publish Public Review",
+        rev_public_badge: "Public Comments Wall",
+        rev_visible_all: "Visible to all visitors",
+        book_tag: "Instant WhatsApp Booking",
+        book_title: "Book Your Surf Session or Gear",
+        book_desc: "Fill out your preferences below to preview and send your message straight to +212 610-515768.",
+        form_name: "Your Name *",
+        form_service: "Select Service *",
+        form_level: "Level",
+        form_date: "Preferred Date",
+        form_guests: "People",
+        form_notes: "Notes / Gear Request",
+        preview_label: "WhatsApp Message Preview",
+        btn_send_wa: "Send Booking via WhatsApp",
+        footer_desc: "Surf coaching, lessons, guiding, board rentals, and surf gear in the heart of Sidi Ifni.",
+        footer_address_title: "Address",
+        open_maps: "Open in Google Maps ↗",
+        footer_contact_title: "Contact"
+      },
+      fr: {
+        nav_coaches: "Coachs",
+        nav_services: "Services",
+        nav_shop: "Surf Shop",
+        nav_ig: "Instagram",
+        nav_videos: "Vidéos",
+        nav_reviews: "Avis",
+        nav_booking: "Réservation",
+        hero_title: 'Vivez les Vagues avec <span class="text-sky-300">Surf Mood</span>',
+        hero_subtitle: "Découvrez les spots de Sidi Ifni avec un coach local, un encadrement sur mesure, du matériel de qualité et l'accueil marocain.",
+        hero_cta_wa: "Réserver sur WhatsApp",
+        hero_cta_coaches: "Rencontrer le Coach",
+        coach_tag: "Coach de Surf",
+        coach_heading: "Votre Instructeur",
+        badge_trusted: "Fiable",
+        badge_isa: "Certifié ISA",
+        badge_kids: "Enfants & débutants",
+        coach_location: "Moniteur de surf local et fondateur de Surf Mood",
+        coach_bio_1: "Coaching personnalisé, connaissance des vagues locales et sessions inoubliables sur la côte de Sidi Ifni.",
+        stat_years: "ans d'expérience",
+        stat_langs: "langues",
+        btn_wa_coach: "Écrire sur WhatsApp",
+        btn_see_lessons: "Voir les cours",
+        price_note: "Dès 30 € · sans commission",
+        srv_tag: "Nos Offres",
+        srv_title: "Nos Services Surf",
+        srv_subtitle: "Coaching individuel, cours de surf, surf guiding et boutique d'équipement à Sidi Ifni.",
+        srv1_badge: "1-sur-1",
+        srv1_title: "Coaching Surf Perso",
+        srv1_desc: "Suivi individuel axé sur le take-off, le choix des vagues, les manœuvres et la confiance dans l'océan.",
+        srv2_badge: "Tous Niveaux",
+        srv2_title: "Cours de Surf",
+        srv2_desc: "Cours adaptés aux débutants et intermédiaires à Sidi Ifni avec planche et combinaison incluses.",
+        srv3_badge: "Sidi Ifni",
+        srv3_title: "Surf Guiding",
+        srv3_desc: "Vérification quotidienne de la houle et des marées avec transport local vers les meilleurs spots.",
+        btn_book_wa: "Réserver",
+        shop_card_title: "Surf Shop",
+        shop_desc: "Rendez-vous au N, 1 Bd Moulay Youssef pour planches, combinaisons, wax, leashes, dérives et locations.",
+        shop_price: "Dès 100 MAD",
+        shop_tag: "Locations & Équipement",
+        shop_btn_catalog: "Catalogue",
+        shop_btn_location: "Carte",
+        shop_kicker: "Boutique de Surf • Sidi Ifni",
+        shop_title: "Surf Shop & Locations",
+        shop_subtitle: "Planches, combinaisons, accessoires et locations journalières au N, 1 Bd Moulay Youssef.",
+        filter_all: "Tout voir",
+        filter_boards: "Planches",
+        filter_gear: "Combinaisons & Accessoires",
+        filter_rentals: "Locations Journalières",
+        ig_bio: "Surf Mood Sidi Ifni • Vagues, coaching surf, guiding & nouveautés du shop.",
+        vid_tag: "Vidéos & Sessions",
+        vid_title: "Vidéos Surf à Sidi Ifni",
+        vid_subtitle: "Regardez les sessions, le coaching et l'ambiance du shop directement sur la page.",
+        rev_tag: "Avis de la Communauté",
+        rev_title: "Partagez Votre Avis",
+        rev_desc: "Votre commentaire s'affiche publiquement afin que tout le monde puisse le lire.",
+        rev_name_label: "Votre Nom *",
+        rev_country_label: "Ville / Pays",
+        rev_rating_label: "Note *",
+        rev_comment_label: "Votre Commentaire *",
+        rev_submit_btn: "Publier l'Avis",
+        rev_public_badge: "Mur des Commentaires Publics",
+        rev_visible_all: "Visible par tous les visiteurs",
+        book_tag: "Réservation Directe WhatsApp",
+        book_title: "Réservez Votre Session ou Matériel",
+        book_desc: "Remplissez vos préférences ci-dessous pour prévisualiser et envoyer votre demande au +212 610-515768.",
+        form_name: "Votre Nom *",
+        form_service: "Choisir un Service *",
+        form_level: "Niveau",
+        form_date: "Date Souhaitée",
+        form_guests: "Personnes",
+        form_notes: "Notes / Demande Matériel",
+        preview_label: "Aperçu du Message WhatsApp",
+        btn_send_wa: "Envoyer via WhatsApp",
+        footer_desc: "Coaching surf, cours, guiding, location de planches et accessoires au cœur de Sidi Ifni.",
+        footer_address_title: "Adresse",
+        open_maps: "Ouvrir dans Google Maps ↗",
+        footer_contact_title: "Contact"
+      },
+      ar: {
+        nav_coaches: "المدرب",
+        nav_services: "الخدمات",
+        nav_shop: "المتجر",
+        nav_ig: "إنستغرام",
+        nav_videos: "الفيديوهات",
+        nav_reviews: "التعليقات",
+        nav_booking: "الحجز",
+        hero_title: 'استمتع بالأمواج مع <span class="text-sky-300">Surf Mood</span>',
+        hero_subtitle: "اكتشف أمواج سيدي إفني مع مدرب محلي، وتوجيه احترافي للسبوتات، ومعدات عالية الجودة بضيافة مغربية أصيلة.",
+        hero_cta_wa: "احجز عبر واتساب",
+        hero_cta_coaches: "تعرّف على المدرب",
+        coach_tag: "مدرب ركوب الأمواج",
+        coach_heading: "تعرّف على مدربك",
+        badge_trusted: "موثوق",
+        badge_isa: "معتمد ISA",
+        badge_kids: "أطفال ومبتدئون",
+        coach_location: "مدرب ركوب أمواج محلي ومؤسس Surf Mood",
+        coach_bio_1: "تدريب فردي مخصص ومعرفة دقيقة بالأمواج المحلية وتجارب ركوب أمواج مميزة على ساحل سيدي إفني.",
+        stat_years: "سنوات خبرة",
+        stat_langs: "لغات",
+        btn_wa_coach: "راسلنا على واتساب",
+        btn_see_lessons: "استعرض الدروس",
+        price_note: "ابتداءً من 30 € · بدون عمولة",
+        srv_tag: "ماذا نقدم",
+        srv_title: "خدماتنا في ركوب الأمواج",
+        srv_subtitle: "تدريب شخصي، دروس منظمة، إرشاد للسبوتات، ومتجر متكامل لمعدات وكراء ألواح السورف في سيدي إفني.",
+        srv1_badge: "تركيز فردي",
+        srv1_title: "تدريب شخصي (Coaching)",
+        srv1_desc: "تدريب فردي يركز على سرعة الوقوف على اللوح، اختيار الموجة، المناورات، والثقة داخل البحر.",
+        srv2_badge: "جميع المستويات",
+        srv2_title: "دروس ركوب الأمواج",
+        srv2_desc: "دروس آمنة ومناسبة للمبتدئين والمتوسطين في شواطئ سيدي إفني مع توفير اللوح والبدلة المائية.",
+        srv3_badge: "سيدي إفني",
+        srv3_title: "إرشاد الأمواج (Guiding)",
+        srv3_desc: "متابعة يومية لحالة المد والأمواج مع تنقل محلي للوصول إلى أفضل نقاط الأمواج في سيدي إفني.",
+        btn_book_wa: "احجز الجلسة",
+        shop_card_title: "متجر السورف",
+        shop_desc: "تفضل بزيارة N, 1 Bd Moulay Youssef للحصول على ألواح السورف، البدلات، الشمع، الحبال، الزعانف، والكراء اليومي.",
+        shop_price: "ابتداءً من 100 درهم",
+        shop_tag: "كراء ومعدات",
+        shop_btn_catalog: "الكتالوج",
+        shop_btn_location: "الخريطة",
+        shop_kicker: "متجر ركوب الأمواج • سيدي إفني",
+        shop_title: "المتجر والكراء اليومي",
+        shop_subtitle: "ألواح، بدلات مائية، إكسسوارات، وكراء يومي في N, 1 Bd Moulay Youssef.",
+        filter_all: "الكل",
+        filter_boards: "ألواح السورف",
+        filter_gear: "البدلات والمعدات",
+        filter_rentals: "الكراء اليومي",
+        ig_bio: "Surf Mood Sidi Ifni • أمواج يومية، تدريب، إرشاد وجديد المتجر.",
+        vid_tag: "مقاطع وجلسات الأمواج",
+        vid_title: "فيديوهات Surf Mood في سيدي إفني",
+        vid_subtitle: "شاهد مقاطع التدريب والأمواج والأنشطة مباشرة داخل الصفحة.",
+        rev_tag: "آراء وتعليقات الزوار",
+        rev_title: "أضف تعليقك وتقييمك",
+        rev_desc: "يظهر تعليقك بشكل عام ليراه جميع زوار الصفحة.",
+        rev_name_label: "اسمك *",
+        rev_country_label: "المدينة / البلد",
+        rev_rating_label: "التقييم *",
+        rev_comment_label: "تعليقك *",
+        rev_submit_btn: "نشر التعليق للجميع",
+        rev_public_badge: "سجل التعليقات العام",
+        rev_visible_all: "ظاهر للجميع",
+        book_tag: "حجز فوري عبر واتساب",
+        book_title: "احجز حصتك أو معداتك الآن",
+        book_desc: "املأ بياناتك أدناه لمعاينة الرسالة وإرسالها مباشرة إلى الرقم +212 610-515768.",
+        form_name: "الاسم الكامل *",
+        form_service: "اختر الخدمة *",
+        form_level: "المستوى",
+        form_date: "التاريخ المفضل",
+        form_guests: "عدد الأشخاص",
+        form_notes: "ملاحظات / طلب معدات",
+        preview_label: "معاينة رسالة واتساب",
+        btn_send_wa: "إرسال الحجز عبر واتساب",
+        footer_desc: "تدريب، دروس، إرشاد أمواج، كراء ألواح، ومعدات سورف في قلب سيدي إفني.",
+        footer_address_title: "العنوان",
+        open_maps: "افتح في خرائط جوجل ↗",
+        footer_contact_title: "التواصل"
+      }
+    };
+
+    window.setLanguage = function (lang) {
+      const dict = translations[lang] || translations.en;
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (dict[key] !== undefined) {
+          el.innerHTML = dict[key];
+        }
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((btn) => {
+        btn.classList.remove("bg-sky-500", "text-white");
+        btn.classList.add("text-slate-300");
+      });
+      const activeBtn = document.getElementById("lang-" + lang);
+      if (activeBtn) {
+        activeBtn.classList.remove("text-slate-300");
+        activeBtn.classList.add("bg-sky-500", "text-white");
+      }
+
+      updateMessagePreview();
+    };
+
+    function renderShop(filter = 'all') {
+      const grid = document.getElementById('shop-grid');
+      if (!grid) return;
+
+      const items = filter === 'all'
+        ? shopItems
+        : shopItems.filter((item) => item.category === filter);
+
+      grid.innerHTML = items.map((item) => `
+        <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+          <div>
+            <div class="relative h-44 bg-slate-900 overflow-hidden">
+              <img src="${item.img}"
+                   alt="${item.title}"
+                   class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                   onerror="this.onerror=null; this.src='${item.fallbackImg}';" />
+              <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-bold ${item.badgeColor}">
+                ${item.badge}
+              </span>
+            </div>
+            <div class="p-5">
+              <h3 class="font-bold text-lg text-brand-navy mb-1.5">${item.title}</h3>
+              <p class="text-sm text-slate-600 mb-4">${item.desc}</p>
+              <div class="flex items-baseline justify-between gap-2">
+                <span class="text-lg font-extrabold text-brand-navy">${item.priceMAD}</span>
+                <span class="text-xs font-semibold text-slate-400">${item.priceEUR}</span>
+              </div>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <button type="button"
+                    onclick="quickBookService('${item.title.replace(/'/g, "\\'")}')"
+                    class="w-full py-2.5 px-4 rounded-xl bg-brand-navy hover:bg-slate-800 text-white text-sm font-bold transition-colors cursor-pointer">
+              WhatsApp Inquiry
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    window.filterShop = function (category) {
+      document.querySelectorAll('.shop-tab').forEach((tab) => {
+        const isActive = tab.getAttribute('data-filter') === category;
+        tab.className = "shop-tab px-4 py-2.5 rounded-xl text-sm font-bold transition-all cursor-pointer " +
+          (isActive
+            ? "bg-brand-navy text-white shadow-sm"
+            : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200");
+      });
+      renderShop(category);
+    };
+
+    function buildWhatsAppMessage() {
+      const name = (document.getElementById('guest-name')?.value || '').trim() || 'Guest';
+      const service = document.getElementById('service-select')?.value || 'Personal Surf Coaching';
+      const level = document.getElementById('skill-level')?.value || 'Beginner';
+      const date = document.getElementById('preferred-date')?.value || 'Flexible';
+      const guests = document.getElementById('guests-count')?.value || '1';
+      const notes = (document.getElementById('booking-notes')?.value || '').trim();
+
+      let msg = `Hello Surf Mood Sidi Ifni!\nName: ${name}\nService: ${service}\nLevel: ${level}\nDate: ${date}\nPeople: ${guests}`;
+      if (notes) msg += `\nNotes: ${notes}`;
+      return msg;
+    }
+
+    window.updateMessagePreview = function () {
+      const preview = document.getElementById('wa-preview');
+      if (preview) preview.textContent = buildWhatsAppMessage();
+    };
+
+    window.quickBookService = function (serviceName) {
+      const select = document.getElementById('service-select');
+      if (select) {
+        const exists = Array.from(select.options).some((opt) => opt.value === serviceName);
+        if (!exists) {
+          const opt = document.createElement('option');
+          opt.value = serviceName;
+          opt.textContent = serviceName;
+          select.appendChild(opt);
+        }
+        select.value = serviceName;
+      }
+      updateMessagePreview();
+      const bookingSection = document.getElementById('booking');
+      if (bookingSection) bookingSection.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    window.handleBookingSubmit = function (e) {
+      e.preventDefault();
+      const text = encodeURIComponent(buildWhatsAppMessage());
+      window.open(`https://wa.me/${WA_PHONE}?text=${text}`, '_blank', 'noopener');
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const yr = document.getElementById('year');
+      if (yr) yr.textContent = new Date().getFullYear();
+      renderShop('all');
+      renderInstagramGrid();
+      renderVideos();
+      renderReviews();
+      updateMessagePreview();
+    });
+  </script>
+</body>
+</html>
